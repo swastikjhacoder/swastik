@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: arial;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -12,15 +14,13 @@ body {
     box-sizing: border-box;
     background: #161623;
 }
-/*-------------------------- Header style --------------------------*/
+
 .header-body{
     height: 100px;
     opacity: 0.8;
-    /* background-image: url('https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg'); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    /* padding-top: 1.2rem; */
 }
 
 header{
@@ -46,16 +46,43 @@ i{
 
 header .logo{
     flex: 1;
-    color: #fff;
-    margin-left: 10px;
-    text-transform: uppercase;
-    font-size: 15px;
 }
 
-header .logo:hover {
+header .logo .neon {
+    position: absolute;
+    transform: translate(10%,0);
+    margin: 0;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 0 0 20px #0ef;
+    cursor: default;
+}
+
+header .logo .neon::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 10px;
+    z-index: -1;
+    color: #0ef;
+    filter: blur(15px);
+}
+
+header .logo .neon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: #0ef;
-    color: #001b29;
-    box-shadow: 0 0 20px #0ef;
+    z-index: -2;
+    opacity: 0.5;
+    filter: blur(40px);
+    cursor:auto;
 }
 
 header .search-box{
@@ -210,32 +237,9 @@ section {
     background: #161623;
 }
 
-/* .about-container::before {
-    content: '';
-    position: absolute;
-    top: 600px;
-    left: 0;
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(#f00,#f0f);
-    clip-path: circle(30% at right 70%);
-}
-
-.about-container::after {
-    content: '';
-    position: absolute;
-    top: 600px;
-    left: 0;
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(#2196f3,#e91e63);
-    clip-path: circle(20% at 10% 10%);
-} */
-
 .container{
     position: relative;
     display: flex;
-    /* top: 150px; */
     justify-content: center;
     align-items: center;
     width: 100%;

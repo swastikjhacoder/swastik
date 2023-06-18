@@ -9,28 +9,6 @@
     padding-bottom: 20px;
 }
 
-/* .experience-container::before {
-    content: '';
-    position: absolute;
-    top: 1780px;
-    left: 270;
-    width: 50%;
-    height: 100px;
-    background: linear-gradient(#f0f,#f00);
-    clip-path: circle(10% at 90% 50%);
-}
-
-.experience-container::after {
-    content: '';
-    position: absolute;
-    top: 1280px;
-    left: 0;
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(#e91e63,#2196f3);
-    clip-path: circle(20% at 30% -0%);
-} */
-
 .experience-container .container .experience {
     position: relative;
     width: 80%;

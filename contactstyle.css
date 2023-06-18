@@ -9,28 +9,6 @@
     padding-bottom: 20px;
 }
 
-/* .contact-container::before {
-    content: '';
-    position: absolute;
-    top: 2620px;
-    left: 0;
-    width: 100%;
-    height: 700px;
-    background: linear-gradient(#f0f,#f00);
-    clip-path: circle(10% at 40% 30%);
-}
-
-.contact-container::after {
-    content: '';
-    position: absolute;
-    top: 2150px;
-    left: 100;
-    width: 50%;
-    height: 600px;
-    background: linear-gradient(#2196f3,#e91e63);
-    clip-path: circle(15% at 15% 30%);
-} */
-
 .contact-container .container .contact {
     position: relative;
     width: 80%;

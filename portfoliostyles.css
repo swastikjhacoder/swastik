@@ -10,28 +10,6 @@
     padding-bottom: 20px;
 }
 
-/* .portfolio-container::before {
-    content: '';
-    position: absolute;
-    top: 2200px;
-    left: 0;
-    width: 100%;
-    height: 700px;
-    background: linear-gradient(#f0f,#f00);
-    clip-path: circle(18% at 80% 30%);
-}
-
-.portfolio-container::after {
-    content: '';
-    position: absolute;
-    top: 1700px;
-    left: 100;
-    width: 50%;
-    height: 600px;
-    background: linear-gradient(#2196f3,#e91e63);
-    clip-path: circle(25% at 30% 30%);
-} */
-
 .portfolio-container .container .portfolio {
     position: relative;
     width: 80%;

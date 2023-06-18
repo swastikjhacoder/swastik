@@ -10,28 +10,6 @@
     padding-bottom: 20px;
 }
 
-/* .skill-container::before {
-    content: '';
-    position: absolute;
-    top: 900px;
-    left: 0;
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(#f0f,#f00);
-    clip-path: circle(30% at right -30%);
-}
-
-.skill-container::after {
-    content: '';
-    position: absolute;
-    top: 1000px;
-    left: 0;
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(#2196f3,#e91e63);
-    clip-path: circle(20% at 30% 90%);
-} */
-
 .skill-container .container .skill-box {
     position: relative;
     width: 80%;
