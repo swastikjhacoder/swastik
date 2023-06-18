@@ -53,7 +53,9 @@ header .logo{
 }
 
 header .logo:hover {
-    color: #0ef;
+    background: #0ef;
+    color: #001b29;
+    box-shadow: 0 0 20px #0ef;
 }
 
 header .search-box{
