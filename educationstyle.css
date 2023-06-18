@@ -9,7 +9,7 @@
     padding-bottom: 20px;
 }
 
-.education-container::before {
+/* .education-container::before {
     content: '';
     position: absolute;
     top: 2200px;
@@ -29,7 +29,7 @@
     height: 600px;
     background: linear-gradient(#2196f3,#e91e63);
     clip-path: circle(25% at 25% 30%);
-}
+} */
 
 .education-container .container .education {
     position: relative;

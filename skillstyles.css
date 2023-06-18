@@ -10,10 +10,10 @@
     padding-bottom: 20px;
 }
 
-.skill-container::before {
+/* .skill-container::before {
     content: '';
     position: absolute;
-    top: 800px;
+    top: 900px;
     left: 0;
     width: 100%;
     height: 300px;
@@ -30,7 +30,7 @@
     height: 300px;
     background: linear-gradient(#2196f3,#e91e63);
     clip-path: circle(20% at 30% 90%);
-}
+} */
 
 .skill-container .container .skill-box {
     position: relative;

@@ -10,7 +10,7 @@
     padding-bottom: 20px;
 }
 
-.portfolio-container::before {
+/* .portfolio-container::before {
     content: '';
     position: absolute;
     top: 2200px;
@@ -30,7 +30,7 @@
     height: 600px;
     background: linear-gradient(#2196f3,#e91e63);
     clip-path: circle(25% at 30% 30%);
-}
+} */
 
 .portfolio-container .container .portfolio {
     position: relative;

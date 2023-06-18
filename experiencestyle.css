@@ -9,7 +9,7 @@
     padding-bottom: 20px;
 }
 
-.experience-container::before {
+/* .experience-container::before {
     content: '';
     position: absolute;
     top: 1780px;
@@ -29,7 +29,7 @@
     height: 300px;
     background: linear-gradient(#e91e63,#2196f3);
     clip-path: circle(20% at 30% -0%);
-}
+} */
 
 .experience-container .container .experience {
     position: relative;

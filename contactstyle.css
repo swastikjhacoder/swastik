@@ -9,7 +9,7 @@
     padding-bottom: 20px;
 }
 
-.contact-container::before {
+/* .contact-container::before {
     content: '';
     position: absolute;
     top: 2620px;
@@ -29,7 +29,7 @@
     height: 600px;
     background: linear-gradient(#2196f3,#e91e63);
     clip-path: circle(15% at 15% 30%);
-}
+} */
 
 .contact-container .container .contact {
     position: relative;
