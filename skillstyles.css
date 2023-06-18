@@ -1,0 +1,106 @@
+/*-------------------------- Skill style --------------------------*/
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background: #161623;
+    padding-bottom: 20px;
+}
+
+.skill-container::before {
+    content: '';
+    position: absolute;
+    top: 800px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(#f0f,#f00);
+    clip-path: circle(30% at right -30%);
+}
+
+.skill-container::after {
+    content: '';
+    position: absolute;
+    top: 1000px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(#2196f3,#e91e63);
+    clip-path: circle(20% at 30% 90%);
+}
+
+.skill-container .container .skill-box {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 0px;
+    padding: 30px 30px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.skill-container .container .skill-box h2{
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    font-size: 3em;
+    color: rgba(255,255,255,0.5);
+    pointer-events: none;
+}
+
+.skill-container .container .skill-box .skill-grid {
+    width: 100%;
+    height: 80%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.skill-container .container .skill-box .skill-grid .skill-details {
+    position: relative;
+    padding: 20px 10px 20px;
+    text-align: left;
+    overflow: hidden;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.skill-container .container .skill-box .skill-grid .skill-details .progress {
+    width: 100%;
+    height: 18px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.skill-container .container .skill-box .skill-grid .skill-details .progress .progress-bar {
+    width: 50%;
+    height: 100%;
+    background-color: #e91e63;
+    border-radius: 10px;
+    position: relative;
+}
+
+.skill-container .container .skill-box .skill-grid .skill-details .progress .progress-bar span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
