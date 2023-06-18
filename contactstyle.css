@@ -113,9 +113,9 @@
 }
 
 .contact-container .container .contact .contact-form .submit:hover {
-    border: 1px solid #fff;
-    color: #fff;
-    cursor: pointer;
+    background: #0ef;
+    color: #001b29;
+    box-shadow: 0 0 20px #0ef;
 }
 
 /* media queries */

@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
 }
 
 body {
@@ -266,7 +267,7 @@ section {
 }
 
 .container .card .content {
-    padding: 20px;
+    padding: 0 20px;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -307,6 +308,7 @@ section {
     margin-top: 30px;
     text-align: center;
     align-items: center;
+    letter-spacing: 2px;
 }
 
 .container .card .content .para p{

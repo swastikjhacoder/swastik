@@ -71,7 +71,7 @@
 .skill-container .container .skill-box .skill-grid .skill-details .progress .progress-bar {
     width: 50%;
     height: 100%;
-    background-color: #e91e63;
+    background-color: #0ef;
     border-radius: 10px;
     position: relative;
 }
@@ -80,5 +80,5 @@
     position: absolute;
     top: 0;
     right: 0;
-    color: #fff;
+    color: #000;
 }
